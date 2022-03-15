@@ -8,7 +8,7 @@ Converts 3 letter amino acid sequences to 1 letter amino acids using seq1 object
 
 <i>To do: Export this data to a tab-delimited CSV file. 
   
-  For now, python 3 readpdb.py > output.csv command can be used.</i>
+  For now, python 3 readpdb.py > output.csv command can be used as an stop-gap solution.</i>
 
 
 
