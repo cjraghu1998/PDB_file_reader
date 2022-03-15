@@ -7,6 +7,7 @@ Reads all the residue numbers, atom numbers, residue names and chain name and ex
 Converts 3 letter amino acid sequences to 1 letter amino acids using seq1 object of BIO.SeqUtils module.
 
 Required Dependencies:
+
 Python 3+ 
 
 BioPython
