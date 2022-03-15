@@ -7,7 +7,7 @@ from Bio.SeqUtils import seq1 #seq1 part of SeqUtils object converts protein seq
 
 
 #Create PDBParser object
-pdb_reader = PDBParser(PERMISSIVE=1)
+pdb_reader = PDBParser(PERMISSIVE=1) #PERMISSIVE is a boolean flag, is set to 1 so that EXCEPTIONS to constructing SMCRA (Structure, Model, Chain, Residue, Atom) Model is not fatal, but missing atoms will still exist
 structure_id="3eml"
 filename="3eml.pdb"  #path_to_protein_file
 structure = pdb_reader.get_structure(structure_id, filename)
